@@ -2,13 +2,15 @@ import PdfPrinter from 'pdfmake';
 import blobStream, { type IBlobStream } from 'blob-stream';
 import type { TDocumentDefinitions, TFontDictionary } from 'pdfmake/interfaces';
 import path from "node:path";
+import normal from '../../assets/fonts/FuturaPTBook.otf';
+import bold from '../../assets/fonts/FuturaPTBold.otf';
 
 
 
 const fonts: TFontDictionary = {
     Futura: {
-        normal: `./static/fonts/FuturaPTBook.otf`,
-        bold: `./static/fonts/FuturaPTBold.otf`
+        normal: normal,
+        bold: bold
     }
 };
 const printer = new PdfPrinter(fonts);
