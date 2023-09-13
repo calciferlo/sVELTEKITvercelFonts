@@ -7,8 +7,8 @@ import bold from '$lib/assets/FuturaPTCondBold.otf';
 
 const fonts: TFontDictionary = {
 	Futura: {
-		normal: path.join(process.cwd(), '.svelte-kit/output/server', regular),
-		bold: path.join(process.cwd(), '.svelte-kit/output/server', bold)
+		normal: path.join(process.cwd(), '.vercel/output/static', regular),
+		bold: path.join(process.cwd(), '.vercel/output/static', bold)
 	}
 };
 const printer = new PdfPrinter(fonts);
