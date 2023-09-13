@@ -12,9 +12,9 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.2.4",
-		"@sveltejs/adapter-vercel": "^3.0.3",
-		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-vercel": "next",
+		"@sveltejs/kit": "next",
 		"@types/blob-stream": "^0.1.30",
 		"@types/pdfmake": "^0.2.2",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
